@@ -34,6 +34,8 @@ An enterprise distributed systems design course for building reliable, secure, a
 
 System design turns product requirements into explicit contracts for data, compute, networking, identity, capacity, recovery, and operations. This course begins with those mechanics, then applies them to Azure platforms and AI workloads where token budgets, retrieval quality, model latency, and tool authority become part of the architecture.
 
+[Author's note](AUTHOR-NOTE.md)
+
 ## `./boot`
 
 Architecture is the discipline of making system behavior explicit before traffic, failure, security review, or cost forces the issue. Each lesson follows a request through its boundaries: identity, network, API, data, queue, model, operator, and recovery path.
@@ -54,7 +56,7 @@ $ principals --author "Hazem Ali" --scope consequential-systems
 
   HAZEM'S PRINCIPALS
   Informed by enterprise engineering work and published systems research.
-  Covers engineering, AI, cybersecurity, mission-critical systems, and operations.
+  Covers engineering, AI, cybersecurity, networking, mission-critical systems, and operations.
 
   Begin: principals/README.md
 ```
@@ -95,7 +97,7 @@ $ route --list
 | `03` | [Embeddings and vector similarity](reference/02-data-and-retrieval/12-embeddings-and-vector-similarity.md) |
 | `04` | [Hazem's Principals](principals/) |
 
-Hazem's Principals are organized into five disciplines, each numbered independently from `01` through `05`:
+Hazem's Principals are organized into six disciplines. Most disciplines contain chapters `01` through `05`; cybersecurity extends through `07` for auditable agent authority and inference-memory integrity:
 
 | Discipline | Entry principal |
 |---|---|
@@ -103,6 +105,7 @@ Hazem's Principals are organized into five disciplines, each numbered independen
 | Mission-critical systems | [Safe state and failure containment](principals/mission-critical-systems/01-safe-state-and-failure-containment.md) |
 | Cybersecurity | [Zero-trust AI execution](principals/cybersecurity/01-zero-trust-ai-execution.md) |
 | AI systems | [Representation, authority, and memory](principals/ai-systems/01-representation-authority-and-memory.md) |
+| Networking | [Packet path and forwarding evidence](principals/networking/01-packet-path-and-forwarding-evidence.md) |
 | Reliability and operations | [Consequence-oriented SLOs](principals/reliability-and-operations/01-consequence-oriented-slos.md) |
 
 ## `./atlas --visual`
@@ -174,6 +177,7 @@ flowchart LR
 | `P03` | [Cybersecurity](principals/cybersecurity/) | An authentic control proves that the intended object and consequence were authorized. | What can a fully compromised proposer still cause without a fresh, target-bound capability? |
 | `P04` | [Mission-critical systems](principals/mission-critical-systems/) | More availability and faster recovery are always safer. | When evidence weakens, which authority disappears automatically? |
 | `P05` | [Reliability and operations](principals/reliability-and-operations/) | Green infrastructure and successful requests imply correct outcomes. | Which evidence turns apparent success into a decision to admit, quarantine, roll back, or resume? |
+| `P06` | [Networking](principals/networking/) | One end-to-end path owns the operation. | What if no single path ever carried both authority and acknowledgment: where does the operation's network causality live? |
 
 ## `./lesson --guarantees`
 

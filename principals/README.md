@@ -6,7 +6,7 @@ Hazem Ali is a Distinguished Mission-Critical Systems Engineer and Architect, a 
 
 This collection turns Hazem Ali's research into a principal-level operating method for architecture reviews, production design, security decisions, and technical leadership.
 
-It is not a generic best-practices catalog. It is an attributed synthesis of five articles written by Hazem Ali, checked against primary standards, vendor documentation, and original research. The collection separates three kinds of statement:
+It is not a generic best-practices catalog. It is an attributed synthesis of Hazem Ali's published and coauthored research, checked against primary standards, vendor documentation, and original research. The collection separates three kinds of statement:
 
 - **Hazem's Principle**: a method or synthesis derived from Hazem's published work.
 - **Verified mechanism**: behavior supported by a primary specification, vendor document, or peer-reviewed source.
@@ -41,13 +41,21 @@ principals/
 |   |-- 02-canonical-identity-and-representation-security.md
 |   |-- 03-capability-scoped-authorization.md
 |   |-- 04-isolation-sandboxing-and-untrusted-execution.md
-|   `-- 05-supply-chain-and-execution-integrity.md
+|   |-- 05-supply-chain-and-execution-integrity.md
+|   |-- 06-auditable-agent-authority-and-lifecycle-red-teaming.md
+|   `-- 07-kv-cache-integrity-and-silent-hardware-corruption.md
 |-- ai-systems/
 |   |-- 01-representation-authority-and-memory.md
 |   |-- 02-retrieval-promotion-and-provenance.md
 |   |-- 03-memory-admission-and-serving-state.md
 |   |-- 04-determinism-and-execution-envelopes.md
 |   `-- 05-generation-termination-and-output-admission.md
+|-- networking/
+|   |-- 01-packet-path-and-forwarding-evidence.md
+|   |-- 02-naming-and-secure-transport.md
+|   |-- 03-congestion-overload-and-backpressure.md
+|   |-- 04-routing-convergence-and-failure-domains.md
+|   `-- 05-zero-trust-network-observability.md
 `-- reliability-and-operations/
     |-- 01-consequence-oriented-slos.md
     |-- 02-causal-observability-and-trace-evidence.md
@@ -60,9 +68,10 @@ principals/
 
 1. Begin with [boundary-first system design](engineering/01-boundary-first-system-design.md), then complete the five engineering principals in numeric order.
 2. Continue through [mission-critical systems](mission-critical-systems/01-safe-state-and-failure-containment.md) to connect invariants to overload, ambiguous outcomes, containment, and recovery.
-3. Use [cybersecurity](cybersecurity/01-zero-trust-ai-execution.md) to bind representation and action to canonical identity, scoped authority, isolation, and provenance.
+3. Use [cybersecurity](cybersecurity/01-zero-trust-ai-execution.md) to bind representation and action to canonical identity, scoped authority, isolation, provenance, auditable agent decisions, and inference-memory integrity.
 4. Study [AI systems](ai-systems/01-representation-authority-and-memory.md) to follow the operational object through retrieval, memory, execution, decoding, and admission.
-5. Finish with [reliability and operations](reliability-and-operations/01-consequence-oriented-slos.md) to turn those controls into evidence, service objectives, change gates, and incident practice.
+5. Trace [networking](networking/01-packet-path-and-forwarding-evidence.md) from name authority through forwarding, secure transport, overload, routing convergence, policy enforcement, and path evidence.
+6. Finish with [reliability and operations](reliability-and-operations/01-consequence-oriented-slos.md) to turn those controls into evidence, service objectives, change gates, and incident practice.
 
 ## The six questions
 

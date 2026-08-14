@@ -16,13 +16,16 @@ A derived practice is not presented as a requirement of the source unless the so
 
 ## Hazem Ali research corpus
 
-The collection is organized around five supplied primary author sources:
+The collection is organized around the supplied primary author sources and Hazem Ali's coauthored security research:
 
 - Hazem Ali, [The Hidden Boundaries of Modern AI](https://techcommunity.microsoft.com/blog/educatordeveloperblog/the-hidden-boundaries-of-modern-ai/4522995), Microsoft Tech Community, 2026. This supplies the representation-contract, authority-gradient, context-promotion, output-admission, and zero-trust-executor synthesis.
 - Hazem Ali, [The Hidden Memory Architecture of LLMs](https://techcommunity.microsoft.com/blog/educatordeveloperblog/the-hidden-memory-architecture-of-llms/4485367), Microsoft Tech Community, 2026. This supplies the memory-first serving model, KV state, admission, paging, determinism, and multi-tenant memory synthesis.
 - Hazem Ali, [AI Didn't Break Your Production, Your Architecture Did](https://techcommunity.microsoft.com/blog/educatordeveloperblog/ai-didn%E2%80%99t-break-your-production-%E2%80%94-your-architecture-did/4482848), Microsoft Tech Community, 2026. This supplies the production control-plane, runtime governance, idempotency, containment, and consequence-oriented operating model.
 - Hazem Ali, [The Silent Collapse](https://drhazemali.com/blog/the-silent-collapse-deep-stack-hardware-software-failure-modes), 2026. This supplies the execution-capsule, cross-layer correctness, silent-corruption, plan-hash, topology-fingerprint, and fleet-change governance synthesis.
 - Hazem Ali, [From Silicon to Pixels](https://drhazemali.com/blog/from-silicon-to-pixels-why-no-ai-agent-can-ship-a-production-browser), 2026. This supplies the verification-dominant engineering, assumption-of-compromise, system-invariant, and AI-under-engineering-supervision synthesis.
+- Hazem Ali, [The Hidden Architecture of Nano Architectures](https://techcommunity.microsoft.com/blog/educatordeveloperblog/the-hidden-architecture-of-nano-architectures/4493391), Microsoft Tech Community, 2026. This supplies the executed-plan, runtime-regime, finite-precision, memory-hierarchy, fabric, and security-performance coupling synthesis.
+- Hazem Ali et al., [LAAF: Logic-layer Automated Attack Framework](https://arxiv.org/abs/2603.17239), arXiv preprint, 2026. This supplies the six-stage LPCI red-teaming model, persistent stage breaker, OWASP risk mapping, experimental results, and explicit threats-to-validity boundaries.
+- Hazem Ali et al., [Building an Auditable Security Layer for Agentic AI](https://techcommunity.microsoft.com/blog/educatordeveloperblog/building-an-auditable-security-layer-for-agentic-ai/4495753), Microsoft Tech Community, 2026. This supplies the context, capability, evidence, retrieval, and detection gates used for auditable agent authority.
 
 ## Engineering foundations
 
@@ -45,6 +48,9 @@ The collection is organized around five supplied primary author sources:
 - NIST, [SP 800-207: Zero Trust Architecture](https://csrc.nist.gov/pubs/sp/800/207/final). Used for policy decision and enforcement concepts and resource-centered trust.
 - NIST, [SP 800-218: Secure Software Development Framework](https://csrc.nist.gov/pubs/sp/800/218/final). Used for secure development and supply-chain practices.
 - NIST, [SP 800-53 Rev. 5](https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final). Used for control families and evidence expectations.
+- NIST, [SP 800-161 Rev. 1](https://csrc.nist.gov/pubs/sp/800/161/r1/upd1/final). Used for malicious functionality, vulnerable components, and cybersecurity supply-chain risk boundaries.
+- NIST, [AI 100-2 E2023: Adversarial Machine Learning](https://csrc.nist.gov/pubs/ai/100/2/e2023/final). Used for evasion, poisoning, privacy, trojan, and backdoor terminology without treating taxonomy as proof of a proposed exploit.
+- MITRE ATT&CK, [T1078 Valid Accounts](https://attack.mitre.org/techniques/T1078/). Used for compromised-credential access, persistence, privilege escalation, and defense-evasion mechanisms.
 - Unicode Consortium, [UAX #9: Unicode Bidirectional Algorithm](https://unicode.org/reports/tr9/). Used for logical order, display order, and bidirectional controls.
 - Unicode Consortium, [UTS #39: Unicode Security Mechanisms](https://www.unicode.org/reports/tr39/). Used for confusable, mixed-script, and identifier-security mechanisms.
 - Chromium, [Threat Model and Defenses Against Compromised Renderers](https://chromium.googlesource.com/chromium/src/+/main/docs/security/compromised_renderers.md). Used for assumption-of-compromise and receiving-side validation patterns.
@@ -58,6 +64,7 @@ The collection is organized around five supplied primary author sources:
 - Jeff Johnson, Matthijs Douze, and Herve Jegou, [Billion-scale similarity search with GPUs](https://arxiv.org/abs/1702.08734), 2017. Used for numerical vector-search mechanisms.
 - Tri Dao et al., [FlashAttention](https://arxiv.org/abs/2205.14135), 2022. Used for input/output-aware attention and memory-movement analysis.
 - Woosuk Kwon et al., [Efficient Memory Management for Large Language Model Serving with PagedAttention](https://arxiv.org/abs/2309.06180), 2023. Used for KV-cache paging and serving utilization.
+- Zhaorun Chen et al., [AgentPoison: Red-teaming LLM Agents via Poisoning Memory or Knowledge Bases](https://arxiv.org/abs/2407.12784), 2024. Used for sparse, trigger-dependent poisoning of persistent agent memory and RAG knowledge bases under the paper's stated attacker assumptions and experimental limits.
 - Ari Holtzman et al., [The Curious Case of Neural Text Degeneration](https://arxiv.org/abs/1904.09751), 2019. Used for decoding-policy effects on visible output.
 - PyTorch, [Reproducibility documentation](https://docs.pytorch.org/docs/stable/notes/randomness.html), and NVIDIA, [cuBLAS reproducibility documentation](https://docs.nvidia.com/cuda/cublas/index.html#results-reproducibility). Used for conditional determinism and execution-envelope constraints.
 
@@ -67,6 +74,8 @@ The collection is organized around five supplied primary author sources:
 - OpenTelemetry, [Trace specification](https://opentelemetry.io/docs/specs/otel/trace/), and [Generative AI semantic conventions](https://github.com/open-telemetry/semantic-conventions-genai). Used for trace, span, event, metric, and AI telemetry models.
 - Open Compute Project, [AI Silent Data Corruption at Scale](https://www.opencompute.org/documents/ocp-wp-sdc-in-ai-20240814-pdf), 2024. Used for silent-corruption risk and fleet-level detection framing.
 - NVIDIA, [Dynamic Page Retirement](https://docs.nvidia.com/deploy/dynamic-page-retirement/index.html). Used for observable GPU memory remediation state and recovery constraints.
+- Google Project Zero, [Exploiting the DRAM Rowhammer bug to gain kernel privileges](https://projectzero.google/2015/03/exploiting-dram-rowhammer-bug-to-gain.html), 2015. Used only for demonstrated CPU DDR3 DRAM disturbance and privilege-escalation mechanisms. It is not used as evidence of a GPU HBM or KV-cache exploit.
+- Zhenkai Zhang et al., [Invalidate+Compare: A Timer-Free GPU Cache Attack Primitive](https://www.usenix.org/conference/usenixsecurity24/presentation/zhang-zhenkai), USENIX Security 2024. Used for demonstrated cache-activity leakage on studied NVIDIA Ampere and Ada Lovelace systems. It is not used as evidence of memory writes or KV-cache corruption.
 - NIST, [SP 800-61 Rev. 2: Computer Security Incident Handling Guide](https://csrc.nist.gov/pubs/sp/800/61/r2/final), and [SP 800-160 Vol. 2 Rev. 1](https://csrc.nist.gov/pubs/sp/800/160/v2/r1/final). Used for incident response and cyber-resilient system design.
 
 ## Microsoft-specific verification
@@ -90,8 +99,10 @@ All images were generated with the existing Azure deployment `gpt-image-2-1`. No
 |---|---|---|
 | `assets/hazem-ali-boundary-first-engineering.png` | Teach representation, authority, isolation, consequence, evidence, and recovery boundaries | All five `principals/engineering/` chapters |
 | `assets/hazem-ali-mission-critical-control-loop.png` | Teach contain, preserve, recover, validate, resume, and evidence-gate relationships | All five `principals/mission-critical-systems/` chapters |
-| `assets/hazem-ali-zero-trust-ai-execution.png` | Teach model-as-proposer, policy decision, enforcement, isolation, and kill-switch flow | All five `principals/cybersecurity/` chapters |
+| `assets/hazem-ali-zero-trust-ai-execution.png` | Teach model-as-proposer, policy decision, enforcement, isolation, and kill-switch flow | Cybersecurity chapters `01` through `06` |
 | `assets/hazem-ali-ai-representation-memory-admission.png` | Teach input representation, retrieval promotion, KV serving state, decoding, and admission | All five `principals/ai-systems/` chapters |
 | `assets/hazem-ali-execution-evidence-incident-control.png` | Teach execution capsules, drift checks, consequence SLOs, and incident controls | All five `principals/reliability-and-operations/` chapters |
+| `assets/hazem-ali-dormant-agent-memory-poisoning.png` | Distinguish valid authentication, bounded write authorization, provenance, delayed retrieval influence, action authority, policy enforcement, and backend receipts | `principals/cybersecurity/06-auditable-agent-authority-and-lifecycle-red-teaming.md` |
+| `assets/hazem-ali-kv-byte-integrity-propagation.png` | Show how one changed byte can affect tensor payload, quantization metadata, block identity, or ownership while keeping Rowhammer evidence scoped to CPU DDR DRAM | `principals/cybersecurity/07-kv-cache-integrity-and-silent-hardware-corruption.md` |
 
 Every generated bitmap includes the visible in-image credit `Credits: Hazem Ali`. Every chapter includes the same visible Markdown credit immediately below its image reference.
