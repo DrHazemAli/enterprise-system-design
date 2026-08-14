@@ -91,9 +91,8 @@ Azure and Microsoft Foundry claims are verified inline against current Microsoft
 
 Product documentation can change. Chapters cite the specific behavior where it is used and should be re-fetched before material revision.
 
-## Generated instructional image record
+## Instructional Image Record
 
-All images were generated with the existing Azure deployment `gpt-image-2-1`. No deployment was created, changed, deleted, scaled, or redeployed.
 
 | Asset | Purpose | Chapter use |
 |---|---|---|
