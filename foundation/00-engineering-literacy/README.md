@@ -353,7 +353,7 @@ The outbox bridges that decision to the queue without pretending the database an
 
 The consumer acknowledges only after its result is durable.
 
-Duplicate delivery remains possible, so the consumer and provider call need idempotency controls.
+Duplicate delivery remains possible, so the consumer and provider call needs idempotency controls.
 
 ## Authoritative and derived state
 
