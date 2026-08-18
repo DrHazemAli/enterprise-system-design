@@ -651,7 +651,7 @@ Mission-critical reliability requires controlled rejection, not optimistic accep
 
 - Hazem Ali, [The Hidden Memory Architecture of LLMs](https://techcommunity.microsoft.com/blog/educatordeveloperblog/the-hidden-memory-architecture-of-llms/4485367)
 - J. D. C. Little, [A Proof for the Queuing Formula: L = lambda W](https://doi.org/10.1287/opre.9.3.383)
-- Jeffrey Dean and Luiz Andre Barroso, [The Tail at Scale](https://doi.org/10.1145/2408776.2408794)
+- Jeffrey Dean and Luiz André Barroso, [The Tail at Scale](https://doi.org/10.1145/2408776.2408794)
 - Welsh et al., [SEDA: An Architecture for Well-Conditioned, Scalable Internet Services](https://doi.org/10.1145/502034.502057)
 - IETF, [RFC 6585](https://www.rfc-editor.org/rfc/rfc6585)
 - IETF, [RFC 9110](https://www.rfc-editor.org/rfc/rfc9110)
