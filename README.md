@@ -54,7 +54,7 @@ open foundation/README.md
 ```text
 $ principles --author "Hazem Ali" --scope consequential-systems
 
-  HAZEM'S PRINCIPALS
+  HAZEM'S PRINCIPLES
   Informed by enterprise engineering work and published systems research.
   Covers engineering, AI, cybersecurity, networking, mission-critical systems, and operations.
 
