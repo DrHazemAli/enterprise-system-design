@@ -1,6 +1,6 @@
 # Enterprise System Design
 
-An enterprise distributed systems design course for building reliable, secure, and operable platforms on Azure, from first principles to production AI workloads.
+An enterprise distributed systems design course and technical reference for building reliable, secure, and operable platforms on Azure, from first principles to production AI workloads.
 
 <p align="center">
   <a href="https://github.com/DrHazemAli/enterprise-system-design">
