@@ -4,7 +4,7 @@
 
 Credits: Hazem Ali
 
-## Principal statement
+## Principle statement
 
 Most major incidents are change-induced.
 

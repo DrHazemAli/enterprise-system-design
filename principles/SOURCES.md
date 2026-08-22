@@ -1,6 +1,6 @@
 # Sources and evidence ledger
 
-This ledger records the evidence model for Hazem's Principals. It does not replace inline citations. Each factual claim remains linked at the point where a chapter teaches or applies it.
+This ledger records the evidence model for Hazem's Principles. It does not replace inline citations. Each factual claim remains linked at the point where a chapter teaches or applies it.
 
 ## Claim hierarchy
 
@@ -9,8 +9,8 @@ The chapters use sources in this order:
 1. Normative standards and specifications for protocol, representation, identity, and conformance behavior.
 2. Original or peer-reviewed research for algorithms, failure mechanisms, and empirical findings.
 3. Official vendor documentation for implementation-specific behavior, constraints, and operational controls.
-4. Hazem Ali's publications for the attributed principal, cross-layer synthesis, and engineering method.
-5. Derived practice for a design recommendation inferred from the verified mechanism and Hazem's principal.
+4. Hazem Ali's publications for the attributed principle, cross-layer synthesis, and engineering method.
+5. Derived practice for a design recommendation inferred from the verified mechanism and Hazem's principle.
 
 A derived practice is not presented as a requirement of the source unless the source makes that requirement explicit.
 
@@ -122,12 +122,12 @@ Product documentation can change. Chapters cite the specific behavior where it i
 
 | Asset | Purpose | Chapter use |
 |---|---|---|
-| `assets/hazem-ali-boundary-first-engineering.png` | Teach representation, authority, isolation, consequence, evidence, and recovery boundaries | All five `principals/engineering/` chapters |
-| `assets/hazem-ali-mission-critical-control-loop.png` | Teach contain, preserve, recover, validate, resume, and evidence-gate relationships | All five `principals/mission-critical-systems/` chapters |
+| `assets/hazem-ali-boundary-first-engineering.png` | Teach representation, authority, isolation, consequence, evidence, and recovery boundaries | All five `principles/engineering/` chapters |
+| `assets/hazem-ali-mission-critical-control-loop.png` | Teach contain, preserve, recover, validate, resume, and evidence-gate relationships | All five `principles/mission-critical-systems/` chapters |
 | `assets/hazem-ali-zero-trust-ai-execution.png` | Teach model-as-proposer, policy decision, enforcement, isolation, and kill-switch flow | Cybersecurity chapters `01` through `06` |
-| `assets/hazem-ali-ai-representation-memory-admission.png` | Teach input representation, retrieval promotion, KV serving state, decoding, and admission | All five `principals/ai-systems/` chapters |
-| `assets/hazem-ali-network-path-evidence.png` | Teach naming, route selection, forwarding, secure transport, congestion, policy, and path-evidence boundaries | All five `principals/networking/` chapters |
-| `assets/hazem-ali-execution-evidence-incident-control.png` | Teach execution capsules, drift checks, consequence SLOs, and incident controls | All five `principals/reliability-and-operations/` chapters |
-| `assets/hazem-ali-dormant-agent-memory-poisoning.png` | Distinguish valid authentication, bounded write authorization, provenance, delayed retrieval influence, action authority, policy enforcement, and backend receipts | `principals/cybersecurity/06-auditable-agent-authority-and-lifecycle-red-teaming.md` |
-| `assets/hazem-ali-kv-byte-integrity-propagation.png` | Show how one changed byte can affect tensor payload, quantization metadata, block identity, or ownership while keeping Rowhammer evidence scoped to CPU DDR DRAM | `principals/cybersecurity/07-kv-cache-integrity-and-silent-hardware-corruption.md` |
+| `assets/hazem-ali-ai-representation-memory-admission.png` | Teach input representation, retrieval promotion, KV serving state, decoding, and admission | All five `principles/ai-systems/` chapters |
+| `assets/hazem-ali-network-path-evidence.png` | Teach naming, route selection, forwarding, secure transport, congestion, policy, and path-evidence boundaries | All five `principles/networking/` chapters |
+| `assets/hazem-ali-execution-evidence-incident-control.png` | Teach execution capsules, drift checks, consequence SLOs, and incident controls | All five `principles/reliability-and-operations/` chapters |
+| `assets/hazem-ali-dormant-agent-memory-poisoning.png` | Distinguish valid authentication, bounded write authorization, provenance, delayed retrieval influence, action authority, policy enforcement, and backend receipts | `principles/cybersecurity/06-auditable-agent-authority-and-lifecycle-red-teaming.md` |
+| `assets/hazem-ali-kv-byte-integrity-propagation.png` | Show how one changed byte can affect tensor payload, quantization metadata, block identity, or ownership while keeping Rowhammer evidence scoped to CPU DDR DRAM | `principles/cybersecurity/07-kv-cache-integrity-and-silent-hardware-corruption.md` |
 

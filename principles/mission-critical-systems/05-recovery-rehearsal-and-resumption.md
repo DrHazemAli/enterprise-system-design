@@ -4,7 +4,7 @@
 
 Credits: Hazem Ali
 
-## Hazem principal
+## Hazem principle
 
 Recovery is a state transition.
 

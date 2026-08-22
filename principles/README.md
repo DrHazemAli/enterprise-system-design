@@ -1,6 +1,6 @@
-# Hazem's Principals
+# Hazem's Principles
 
-These principals are by **Hazem Ali**. They codify the system-design techniques, engineering judgments, and production controls that recur across his published research on artificial intelligence, mission-critical systems, cybersecurity, hardware-software correctness, and verification-dominant engineering.
+These principles are by **Hazem Ali**. They codify the system-design techniques, engineering judgments, and production controls that recur across his published research on artificial intelligence, mission-critical systems, cybersecurity, hardware-software correctness, and verification-dominant engineering.
 
 Hazem Ali is a Distinguished Mission-Critical Systems Engineer and Architect, a [Microsoft AI Most Valuable Professional](https://mvp.microsoft.com/en-US/MVP/profile/4865c7ae-cb5b-4eb5-b128-608b1f9a6ebc), and the Founder and Chief Executive Officer of Skytells. His [author profile](https://drhazemali.com/author/hazem-ali) and [Microsoft Tech Community profile](https://techcommunity.microsoft.com/users/hazem/3056729) provide the publication record behind this collection.
 
@@ -21,7 +21,7 @@ This is the common line across Hazem's work on [hidden AI boundaries](https://te
 ## Collection map
 
 ```text
-principals/
+principles/
 |-- README.md
 |-- SOURCES.md
 |-- engineering/
@@ -66,7 +66,7 @@ principals/
 
 ## Reading order
 
-1. Begin with [boundary-first system design](engineering/01-boundary-first-system-design.md), then complete the five engineering principals in numeric order.
+1. Begin with [boundary-first system design](engineering/01-boundary-first-system-design.md), then complete the five engineering principles in numeric order.
 2. Continue through [mission-critical systems](mission-critical-systems/01-safe-state-and-failure-containment.md) to connect invariants to overload, ambiguous outcomes, containment, and recovery.
 3. Use [cybersecurity](cybersecurity/01-zero-trust-ai-execution.md) to bind representation and action to canonical identity, scoped authority, isolation, provenance, auditable agent decisions, and inference-memory integrity.
 4. Study [AI systems](ai-systems/01-representation-authority-and-memory.md) to follow the operational object through retrieval, memory, execution, decoding, and admission.

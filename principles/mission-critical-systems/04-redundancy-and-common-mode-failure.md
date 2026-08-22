@@ -4,7 +4,7 @@
 
 Credits: Hazem Ali
 
-## Hazem principal
+## Hazem principle
 
 Two replicas are not independent when they share the assumption that fails.
 

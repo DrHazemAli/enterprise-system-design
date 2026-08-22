@@ -8,7 +8,7 @@ Credits: Hazem Ali
 
 Hazem Ali's boundary-first method requires an engineer to inspect the operational object and contract at every transition instead of trusting the visible outcome. Applied to networking, a hostname is not an address, an address is not a route, a route is not a resolved next hop, a forwarded packet is not a transport connection, and a transport connection is not a successful application operation.
 
-The principal-level technique is:
+The governing principle is:
 
 > Prove reachability as an ordered chain of independently evidenced state transitions. Never use success at one layer as proof that the next layer is correct.
 

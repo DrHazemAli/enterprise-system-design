@@ -4,13 +4,13 @@
 
 Credits: Hazem Ali
 
-## principal statement and lineage
+## Principle statement and lineage
 
-Hazem Ali principal: retrieval creates candidates, not authority.
+Hazem Ali principle: retrieval creates candidates, not authority.
 
-Hazem Ali principal: promotion is a separate decision with security, freshness, and lineage constraints.
+Hazem Ali principle: promotion is a separate decision with security, freshness, and lineage constraints.
 
-Hazem Ali principal: provenance must be queryable at row level for every promoted chunk.
+Hazem Ali principle: provenance must be queryable at row level for every promoted chunk.
 
 This chapter extends the boundary-first view from chapter 01 into retrieval systems.
 
@@ -379,7 +379,7 @@ Alternative C risk: requires clear consequence taxonomy.
 
 This chapter recommends Alternative C with explicit policy tiers. [DP]
 
-## principal review checklist
+## Principle review checklist
 
 Review 01: Does retrieval output include lineage IDs.
 

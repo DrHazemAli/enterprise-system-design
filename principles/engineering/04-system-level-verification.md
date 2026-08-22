@@ -4,7 +4,7 @@
 
 Credits: Hazem Ali
 
-## Hazem Ali's principal and attribution
+## Hazem Ali's principle and attribution
 
 A component can be locally correct while the system remains unsafe. Verification must follow the interaction chain where independently valid behaviors compose into an invalid consequence.
 

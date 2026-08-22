@@ -4,7 +4,7 @@
 
 Credits: Hazem Ali
 
-## Hazem Ali's principal and attribution
+## Hazem Ali's principle and attribution
 
 Architecture becomes defensible when every important transition states what may change, what must remain true, and who can authorize the change.
 

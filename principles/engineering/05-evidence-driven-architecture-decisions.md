@@ -4,7 +4,7 @@
 
 Credits: Hazem Ali
 
-## Hazem Ali's principal and attribution
+## Hazem Ali's principle and attribution
 
 An architecture claim is incomplete until it names the evidence that could prove it wrong in production.
 

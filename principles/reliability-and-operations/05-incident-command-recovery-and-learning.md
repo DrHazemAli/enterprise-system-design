@@ -4,7 +4,7 @@
 
 Credits: Hazem Ali
 
-## Principal statement
+## Principle statement
 
 Reliability is not proven during normal operation.
 

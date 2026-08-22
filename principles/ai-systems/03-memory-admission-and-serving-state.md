@@ -4,13 +4,13 @@
 
 Credits: Hazem Ali
 
-## principal statement and lineage
+## Principle statement and lineage
 
-Hazem Ali principal: serving stability depends on memory admission, not only request admission.
+Hazem Ali principle: serving stability depends on memory admission, not only request admission.
 
-Hazem Ali principal: prefill and decode phases have different bottlenecks and must be governed separately.
+Hazem Ali principle: prefill and decode phases have different bottlenecks and must be governed separately.
 
-Hazem Ali principal: cache reuse requires explicit compatibility proof and tenant scoping.
+Hazem Ali principle: cache reuse requires explicit compatibility proof and tenant scoping.
 
 This chapter formalizes the runtime state plane behind agent and LLM applications.
 
@@ -337,7 +337,7 @@ Risk: more complex controls and validation burden.
 
 Recommendation: Alternative C with explicit fallback tiers. [DP]
 
-## principal review checklist
+## Principle review checklist
 
 Review 01: Is memory estimation run before admission.
 

@@ -16,7 +16,7 @@ A selected replacement path is not yet an installed forwarding action.
 
 An installed action on one router is not yet an end-to-end working path.
 
-The principal-level rule is:
+The governing principle is:
 
 > Declare convergence only when every affected boundary has either installed an admissible replacement path or entered an explicit, bounded degraded state, and when traffic evidence agrees with that state.
 

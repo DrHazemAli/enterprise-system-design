@@ -4,7 +4,7 @@
 
 Credits: Hazem Ali
 
-## Principal statement
+## Principle statement
 
 Logs tell you what happened.
 

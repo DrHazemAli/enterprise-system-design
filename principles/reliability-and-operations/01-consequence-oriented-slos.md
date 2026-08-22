@@ -4,7 +4,7 @@
 
 Credits: Hazem Ali
 
-## Principal statement
+## Principle statement
 
 Reliability targets must be derived from consequences, not from averages.
 

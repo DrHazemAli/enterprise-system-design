@@ -4,13 +4,13 @@
 
 Credits: Hazem Ali
 
-## principal statement and lineage
+## Principle statement and lineage
 
-Hazem Ali principal: determinism is a declared tier, not a default property.
+Hazem Ali principle: determinism is a declared tier, not a default property.
 
-Hazem Ali principal: reproducibility requires an execution envelope that binds software, hardware, and policy state.
+Hazem Ali principle: reproducibility requires an execution envelope that binds software, hardware, and policy state.
 
-Hazem Ali principal: comparison baselines must be tier-aware and evidence-backed.
+Hazem Ali principle: comparison baselines must be tier-aware and evidence-backed.
 
 ## evidence labels
 
@@ -296,7 +296,7 @@ Risk: policy and tooling complexity.
 
 Recommendation: Alternative C with mandatory evidence fields. [DP]
 
-## principal review checklist
+## Principle review checklist
 
 Review 01: Is determinism tier declared per request.
 

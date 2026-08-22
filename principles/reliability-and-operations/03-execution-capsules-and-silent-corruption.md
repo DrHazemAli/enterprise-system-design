@@ -4,7 +4,7 @@
 
 Credits: Hazem Ali
 
-## Principal statement
+## Principle statement
 
 Crash-only reliability models are insufficient for modern AI and data systems.
 

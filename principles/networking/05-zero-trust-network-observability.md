@@ -8,7 +8,7 @@ Credits: Hazem Ali
 
 Hazem Ali's zero-trust evidence method treats every network transition as an authorization claim that must be proved at the point where it was decided and at the point where it was enforced.
 
-The principal-level rule is:
+The governing principle is:
 
 > Do not infer trust from location, infer authorization from identity and context, then preserve enough bounded evidence to prove the decision, enforcement, and outcome.
 
@@ -96,7 +96,7 @@ It changes their role from broad trust assignment to layered exposure reduction,
 
 This chapter uses three labels to keep claims honest.
 
-**Synthesis** identifies Hazem Ali's principal-level method.
+**Synthesis** identifies Hazem Ali's principle-based method.
 
 **Mechanism** identifies behavior defined by NIST or an Internet Engineering Task Force (IETF) specification.
 

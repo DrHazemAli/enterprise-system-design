@@ -4,19 +4,19 @@
 
 Credits: Hazem Ali
 
-## Principal statement and lineage
+## Principle statement and lineage
 
-Hazem Ali principal: do not evaluate AI correctness from output text alone.
+Hazem Ali principle: do not evaluate AI correctness from output text alone.
 
-Hazem Ali principal: evaluate the full chain from bytes to promoted context to runtime state to admitted output.
+Hazem Ali principle: evaluate the full chain from bytes to promoted context to runtime state to admitted output.
 
-Hazem Ali principal: representation identity, authority promotion, and serving memory form one control system.
+Hazem Ali principle: representation identity, authority promotion, and serving memory form one control system.
 
-The principal is grounded in Hazem's system-design synthesis on hidden AI boundaries and hidden memory architecture.
+The principle is grounded in Hazem's system-design synthesis on hidden AI boundaries and hidden memory architecture.
 
-The principal is also grounded in reproducibility constraints from PyTorch and cuBLAS documentation.
+The principle is also grounded in reproducibility constraints from PyTorch and cuBLAS documentation.
 
-The principal is mapped to Azure operational controls through Foundry observability and Azure Monitor.
+The principle is mapped to Azure operational controls through Foundry observability and Azure Monitor.
 
 ## Evidence labels used in this chapter
 
@@ -470,7 +470,7 @@ Alternative C trade-off: requires disciplined schema and key management.
 
 This chapter recommends Alternative C. [DP]
 
-## principal review checklist
+## Principle review checklist
 
 Check 01: Is byte-level input identity captured.
 
@@ -733,7 +733,7 @@ Admission checks should scale with risk:
 
 During prefill, the runtime processes the prompt and builds key-value (KV) cache state. During decode, it reuses and extends that state token by token. KV size grows with sequence length and concurrent sequences; decode repeatedly reads prior state and is commonly constrained by memory bandwidth and cache management rather than only arithmetic throughput. PagedAttention treats KV allocation using fixed-size blocks to reduce fragmentation and improve serving utilization ([PagedAttention paper](https://arxiv.org/abs/2309.06180)).
 
-The principal review must therefore include:
+The principle review must therefore include:
 
 - admission based on estimated KV demand, not only request rate;
 - queue policy for long prompts and large output budgets;

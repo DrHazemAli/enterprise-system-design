@@ -8,7 +8,7 @@ Credits: Hazem Ali
 
 Hazem Ali's research repeatedly moves the architecture review away from the visible artifact and toward the transformation path beneath it. A user sees text; the model core receives tensors. A retriever returns nearby vectors; the context assembler decides which content becomes conditioning state. A model emits token scores; a decoder exposes one trajectory. A generated action looks like a command; a runtime decides whether it gains authority. A model endpoint looks healthy; hardware, allocator, compiler, or scheduler state may have changed the execution path.
 
-The principal-level technique is therefore:
+The governing principle is therefore:
 
 > Model every change in representation or authority as a boundary with an explicit contract, invariant, evidence record, and failure response.
 

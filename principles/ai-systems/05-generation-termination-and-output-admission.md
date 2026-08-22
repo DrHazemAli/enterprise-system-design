@@ -4,13 +4,13 @@
 
 Credits: Hazem Ali
 
-## principal statement and lineage
+## Principle statement and lineage
 
-Hazem Ali principal: termination explains why generation stopped, not whether output is safe or correct.
+Hazem Ali principle: termination explains why generation stopped, not whether output is safe or correct.
 
-Hazem Ali principal: output admission is a separate consequence-tier decision.
+Hazem Ali principle: output admission is a separate consequence-tier decision.
 
-Hazem Ali principal: verifier depth must scale with downstream impact.
+Hazem Ali principle: verifier depth must scale with downstream impact.
 
 ## evidence labels
 
@@ -299,7 +299,7 @@ Risk: requires versioned classification rules, measured error rates, and governe
 
 Recommendation: Alternative C with strict invariants and traceable policies. [DP]
 
-## principal review checklist
+## Principle review checklist
 
 Review 01: Is stop reason always recorded.
 

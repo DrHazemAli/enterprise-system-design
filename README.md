@@ -49,19 +49,19 @@ cd enterprise-system-design
 open foundation/README.md
 ```
 
-## `./principals --level principal-distinguished`
+## `./principles --level principal-distinguished`
 
 ```text
-$ principals --author "Hazem Ali" --scope consequential-systems
+$ principles --author "Hazem Ali" --scope consequential-systems
 
   HAZEM'S PRINCIPALS
   Informed by enterprise engineering work and published systems research.
   Covers engineering, AI, cybersecurity, networking, mission-critical systems, and operations.
 
-  Begin: principals/README.md
+  Begin: principles/README.md
 ```
 
-[Open Hazem's Principals](principals/README.md).
+[Open Hazem's Principles](principles/README.md).
 
 ## `./choose-route`
 
@@ -84,9 +84,9 @@ $ route --list
       Retrieval, permission-aware data, rate limits, routing, agents, and serving.
       Begin: reference/02-data-and-retrieval/12-embeddings-and-vector-similarity.md
 
-  04  STUDY HAZEM'S PRINCIPALS
+  04  STUDY HAZEM'S PRINCIPLES
       Contracts, invariants, authority boundaries, verification, containment, and recovery.
-      Begin: principals/README.md
+      Begin: principles/README.md
 ```
 
 | Route | First lesson |
@@ -95,18 +95,18 @@ $ route --list
 | `01` | [Cloud computing and Azure Resource Manager](reference/00-ground-zero/00-cloud-computing-and-azure-resource-manager.md) |
 | `02` | [Scale from one to one million](reference/01-system-design-foundations/06-scale-from-one-to-one-million.md) |
 | `03` | [Embeddings and vector similarity](reference/02-data-and-retrieval/12-embeddings-and-vector-similarity.md) |
-| `04` | [Hazem's Principals](principals/) |
+| `04` | [Hazem's Principles](principles/) |
 
-Hazem's Principals are organized into six disciplines. Most disciplines contain chapters `01` through `05`; cybersecurity extends through `07` for auditable agent authority and inference-memory integrity:
+Hazem's Principles are organized into six disciplines. Most disciplines contain chapters `01` through `05`; cybersecurity extends through `07` for auditable agent authority and inference-memory integrity:
 
-| Discipline | Entry principal |
+| Discipline | Entry principle |
 |---|---|
-| Engineering | [Boundary-first system design](principals/engineering/01-boundary-first-system-design.md) |
-| Mission-critical systems | [Safe state and failure containment](principals/mission-critical-systems/01-safe-state-and-failure-containment.md) |
-| Cybersecurity | [Zero-trust AI execution](principals/cybersecurity/01-zero-trust-ai-execution.md) |
-| AI systems | [Representation, authority, and memory](principals/ai-systems/01-representation-authority-and-memory.md) |
-| Networking | [Packet path and forwarding evidence](principals/networking/01-packet-path-and-forwarding-evidence.md) |
-| Reliability and operations | [Consequence-oriented SLOs](principals/reliability-and-operations/01-consequence-oriented-slos.md) |
+| Engineering | [Boundary-first system design](principles/engineering/01-boundary-first-system-design.md) |
+| Mission-critical systems | [Safe state and failure containment](principles/mission-critical-systems/01-safe-state-and-failure-containment.md) |
+| Cybersecurity | [Zero-trust AI execution](principles/cybersecurity/01-zero-trust-ai-execution.md) |
+| AI systems | [Representation, authority, and memory](principles/ai-systems/01-representation-authority-and-memory.md) |
+| Networking | [Packet path and forwarding evidence](principles/networking/01-packet-path-and-forwarding-evidence.md) |
+| Reliability and operations | [Consequence-oriented SLOs](principles/reliability-and-operations/01-consequence-oriented-slos.md) |
 
 ## `./atlas --visual`
 
@@ -168,16 +168,16 @@ flowchart LR
 | `09` | [Edge and hybrid](reference/09-edge-and-hybrid/) | What changes when connectivity, location, and control are distributed? |
 | `10` | [System design case studies](reference/10-system-design-case-studies/) | Can the preceding decisions survive a complete design review? |
 
-## `./principals --domains`
+## `./principles --domains`
 
-| ID | Principal collection | Assumption to reject | Governing question |
+| ID | Principle collection | Assumption to reject | Governing question |
 |:--:|---|---|---|
-| `P01` | [Engineering](principals/engineering/) | Component success implies system correctness. | What can still go wrong when every component returns success? |
-| `P02` | [AI systems](principals/ai-systems/) | The same prompt and answer imply the same execution. | Which machine-visible state changed while the prompt and answer still looked the same? |
-| `P03` | [Cybersecurity](principals/cybersecurity/) | An authentic control proves that the intended object and consequence were authorized. | What can a fully compromised proposer still cause without a fresh, target-bound capability? |
-| `P04` | [Mission-critical systems](principals/mission-critical-systems/) | More availability and faster recovery are always safer. | When evidence weakens, which authority disappears automatically? |
-| `P05` | [Reliability and operations](principals/reliability-and-operations/) | Green infrastructure and successful requests imply correct outcomes. | Which evidence turns apparent success into a decision to admit, quarantine, roll back, or resume? |
-| `P06` | [Networking](principals/networking/) | One end-to-end path owns the operation. | What if no single path ever carried both authority and acknowledgment: where does the operation's network causality live? |
+| `P01` | [Engineering](principles/engineering/) | Component success implies system correctness. | What can still go wrong when every component returns success? |
+| `P02` | [AI systems](principles/ai-systems/) | The same prompt and answer imply the same execution. | Which machine-visible state changed while the prompt and answer still looked the same? |
+| `P03` | [Cybersecurity](principles/cybersecurity/) | An authentic control proves that the intended object and consequence were authorized. | What can a fully compromised proposer still cause without a fresh, target-bound capability? |
+| `P04` | [Mission-critical systems](principles/mission-critical-systems/) | More availability and faster recovery are always safer. | When evidence weakens, which authority disappears automatically? |
+| `P05` | [Reliability and operations](principles/reliability-and-operations/) | Green infrastructure and successful requests imply correct outcomes. | Which evidence turns apparent success into a decision to admit, quarantine, roll back, or resume? |
+| `P06` | [Networking](principles/networking/) | One end-to-end path owns the operation. | What if no single path ever carried both authority and acknowledgment: where does the operation's network causality live? |
 
 ## `./lesson --guarantees`
 

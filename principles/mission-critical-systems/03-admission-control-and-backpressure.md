@@ -4,7 +4,7 @@
 
 Credits: Hazem Ali
 
-## Hazem principal
+## Hazem principle
 
 Do not accept work that the system cannot finish inside declared memory, latency, correctness, and recovery budgets.
 
